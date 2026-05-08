@@ -22,3 +22,7 @@ python3 soothing_agent.py
 ```
 
 你可以把规则替换成自己的模型或硬件接口（语音识别、视觉动作识别、机械臂动作控制等）。
+
+## WALL-E 履带机器人 Arduino 示例
+
+- `wall_e_trash_collector/wall_e_trash_collector.ino`：可直接在 Arduino IDE 中打开并烧录到 Arduino Uno 的 WALL-E “捡垃圾”履带机器人示例，包含 L298N 履带控制、HC-SR04 测距、双舵机手臂动作与无源蜂鸣器音效。
